@@ -8,3 +8,6 @@ pip install -r requirements.txt
 ```bash
 uvicorn app:app --reload
 ```
+URL страницы с параметрами:
+
+ ```http://127.0.0.1:8000/?name=%20Recruto&message=Давай дружить```
